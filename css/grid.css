@@ -30,8 +30,9 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .box {
-   background-color: powderblue;
-   color: rgb(27, 27, 27);
+   background-color: rgb(46, 69, 45);
+   font-family: american typewriter;
+   color: rgb(202, 211, 174);
    border-radius: 5px;
    padding: 20px;
    text-align: center;
@@ -47,20 +48,21 @@ body, p, h1, h2, h3, h4, h5 {
    /* set this container as a grid, with 3 columns
    the other grid will sit in the middle column, this allows for overlapping content */
    display: grid; 
-	grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
+	grid-template-columns: 1fr minmax(0, 1920px) 1fr;  
 }
 
  .grid-con { 
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
    grid-column-gap: 30px;
-   max-width: 1200px;
+   max-width: 1920px;
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
 }
 
 /* A keyword indicating that the property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of 1. */
+
 .col-auto {grid-column: auto;}
 .col-span-1	{grid-column: span 1 / span 1;}
 .col-span-2	{grid-column: span 2 / span 2;}
@@ -80,6 +82,7 @@ body, p, h1, h2, h3, h4, h5 {
 .col-end-4	{grid-column-end: 4;}
 .col-end-5	{grid-column-end: 5;}
 .col-end-auto	{grid-column-end: auto;}
+
 
 /* ---Tablet Library Grid Styles--- */
 
@@ -106,6 +109,7 @@ body, p, h1, h2, h3, h4, h5 {
    .m-col-span-10 {grid-column: span 10 / span 10;}
    .m-col-span-11 {grid-column: span 11 / span 11;}
    .m-col-span-12 {grid-column: span 12 / span 12;}
+   .m-col-span-12 {grid-column: span 13 / span 13;}
    .m-col-span-full {grid-column: 1 / -1;}
 
    .m-col-start-1	{grid-column-start: 1;}
@@ -165,6 +169,7 @@ body, p, h1, h2, h3, h4, h5 {
    .l-col-span-10 {grid-column: span 10 / span 10;}
    .l-col-span-11 {grid-column: span 11 / span 11;}
    .l-col-span-12 {grid-column: span 12 / span 12;}
+   .l-col-span-12 {grid-column: span 13 / span 13;}
    .l-col-span-full {grid-column: 1 / -1;}
 
    .l-col-start-1	{grid-column-start: 1;}
@@ -223,6 +228,7 @@ body, p, h1, h2, h3, h4, h5 {
    .xl-col-span-10 {grid-column: span 10 / span 10;}
    .xl-col-span-11 {grid-column: span 11 / span 11;}
    .xl-col-span-12 {grid-column: span 12 / span 12;}
+   .xl-col-span-12 {grid-column: span 13 / span 13;}
    .xl-col-span-full {grid-column: 1 / -1;}
 
    .xl-col-start-1	{grid-column-start: 1;}
