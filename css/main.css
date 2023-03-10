@@ -1,5 +1,9 @@
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
     #main-logo {
         order:-1;
     }
+}*/
+
+#main-logo {
+    height: 91px;
 }
