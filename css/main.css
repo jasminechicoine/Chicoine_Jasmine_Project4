@@ -5,5 +5,75 @@
 }*/
 
 #main-logo {
-    height: 91px;
+   
+    
+}
+
+#hero {
+   height: 115px;
+}
+
+#pop-up {
+    height: 115px; 
+}
+
+#image {
+   height: 246px;
+ 
+}
+
+#text {
+    height: 246px; 
+}
+
+#heading {
+    height: 67px;
+}
+
+#text2 {
+    height: 198px;
+}
+
+#text3 {
+    height: 198px;
+}
+
+#image2 {
+    height:138px;
+}
+
+#dots {
+    height: 67px;
+}
+
+#heading2 {
+    height: 67px;
+}
+
+#text4 {
+    height: 152px;
+}
+
+#image3 {
+    height:138px;
+}
+
+#dots2 {
+    height: 67px;
+}
+
+#email {
+    height: 65px;
+}
+
+#sign-up {
+    height: 65px;
+}
+
+#socials-icon1 {
+    height: 54px;
+}
+
+#socials-icon2 {
+    height: 54px;
 }

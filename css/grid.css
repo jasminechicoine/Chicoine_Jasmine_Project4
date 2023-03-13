@@ -54,11 +54,11 @@ body, p, h1, h2, h3, h4, h5 {
  .grid-con { 
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
-   grid-column-gap: 30px;
+   grid-column-gap: 10px;
    max-width: 1920px;
    margin: 0 auto;
-   padding-left: 15px;
-   padding-right: 15px;
+   padding-left: 37px;
+   padding-right: 37px;
 }
 
 /* A keyword indicating that the property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of 1. */
